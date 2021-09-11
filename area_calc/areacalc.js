@@ -1,4 +1,4 @@
-
+// prompt user input
 let l = parseInt(prompt('Enter rectangle length in centimeters:'));
 
 // validate user entry and re-prompt if non numeric characters are entered
