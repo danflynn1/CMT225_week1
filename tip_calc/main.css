@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+main {
+    margin: 0 auto;
+    padding: 1rem 2rem;
+    border: 1px solid black;
+    border-radius: 8px;
+    width: 20rem;
+    background-color: #f9faf7;
+    box-shadow: 3px 3px 10px 2px #adadad;
+}
+h1 {
+    text-align: center;
+}
+p, label {
+    display: inline-block;
+    font-size: 1rem;
+    padding: .4rem 0;
+    margin: 0;
+    width: 6.5rem;
+}
+button {
+    display: block;
+    margin: .5rem auto 0;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    border: 2px solid #4c5241;
+}
+#check {
+    text-align: right;
+    width: 3rem;
+}
+#tip {
+    text-align: right;
+    width: 1.5rem;
+}
+
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
